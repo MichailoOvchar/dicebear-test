@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        input:checked+span {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form action="">
+        <input type="text" name="user_name" placeholder="Your name">
+        <label>
+            <input type="radio" name="style" value="adventurer" checked> <span>Adventure</span>
+        </label>
+        <label>
+            <input type="radio" name="style" value="big-ears"> <span>Big Ears</span>
+        </label>
+        <label>
+            <input type="radio" name="style" value="big-smile"> <span>Big Smile</span>
+        </label>
+
+        <br>
+        <br>
+        <button>Submit</button>
+    </form>
+
+    <div class="avatar">
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
